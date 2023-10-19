@@ -1,0 +1,71 @@
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type=text] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 500px;
+}
+
+input[type=submit] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1E90FF;
+    color: #FFF;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type=submit]:hover {
+    background-color: #0066CC;
+}
+
+.resultados {
+    margin-top: 50px;
+}
+
+.resultados h3 {
+    margin-top: 0;
+}
+
+.resultados table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.resultados table td, .resultados table th {
+    padding: 10px;
+    border: 1px solid #CCC;
+}
+
+.resultados table th {
+    background-color: #F5F5F5;
+}
+
+.resultados table tr:hover {
+    background-color: #F5F5F5;
+}
